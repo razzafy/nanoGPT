@@ -1,0 +1,66 @@
+{
+  "fixed": {
+    "learning_rate": 0.001,
+    "min_lr": 0.0001,
+    "warmup_iters": 100,
+    "beta2": 0.99,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "gradient_accumulation_steps": 1,
+    "eval_interval": 100,
+    "eval_iters": 50,
+    "log_interval": 10,
+    "always_save_checkpoint": false,
+    "compile": false,
+    "wandb_log": false,
+    "bias": false
+  },
+  "grid": {
+    "n_head": [
+      4,
+      8
+    ],
+    "n_embd": [
+      128,
+      256
+    ],
+    "batch_size": [
+      8,
+      16
+    ],
+    "max_iters": [
+      1000,
+      2000
+    ],
+    "dropout": [
+      0.1,
+      0.2
+    ]
+  },
+  "slots": [
+    [
+      64,
+      4
+    ],
+    [
+      64,
+      6
+    ],
+    [
+      128,
+      4
+    ],
+    [
+      128,
+      6
+    ]
+  ],
+  "sample": {
+    "num_samples": 1,
+    "max_new_tokens": 500,
+    "temperature": 0.8,
+    "top_k": 200,
+    "seed": 1337
+  },
+  "nanogpt_commit": "3adf61e"
+}
