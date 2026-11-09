@@ -88,5 +88,3 @@ nanoGPT is used unchanged (commit `3adf61e`) except for three small additions. T
 ## Credits
 
 - nanoGPT by Andrej Karpathy, MIT License: https://github.com/karpathy/nanoGPT
-- Assignment, starter notebook and checkpoint-saving snippet: Amir Mirzaeinia, CSCE @ UNT
-- The experiment notebook and report drafts were prepared with help from Claude (Anthropic).
