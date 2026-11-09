@@ -1,6 +1,5 @@
 # nanoGPT Hyperparameter Experiments (Group 5)
-
-Deep Learning assignment, CSCE @ UNT: understanding and experimenting with the GPT architecture
+Understanding and experimenting with the GPT architecture
 using [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT).
 
 This repository contains the code, configuration, logs and results for **128 training runs** of a
